@@ -1,8 +1,8 @@
 
 // ── Supabase config ─────────────────────────────────────────────
 // Replace these two values with YOUR project URL and anon key
-const SUPABASE_URL = "https://YOUR-PROJECT-REF.supabase.co";
-const SUPABASE_ANON = "YOUR-ANON-KEY-HERE";
+const SUPABASE_URL = "https://xlcmgmsftrvwxvzvipbs.supabase.co";
+const SUPABASE_ANON = "sb_publishable_Hk9wsUAoCubAtloMYJoYdg_yjZagmgY";
 // ── Form submission handler ──────────────────────────────────────
 document.getElementById("contact-form")
 .addEventListener("submit", async function (event) {
