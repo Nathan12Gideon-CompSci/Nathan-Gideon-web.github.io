@@ -1,4 +1,4 @@
-<script>
+
 // ── Supabase config ─────────────────────────────────────────────
 // Replace these two values with YOUR project URL and anon key
 const SUPABASE_URL = "https://YOUR-PROJECT-REF.supabase.co";
@@ -56,4 +56,4 @@ btn.disabled = false;
 btn.textContent = "Send Message";
 }
 });
-</script>
+
