@@ -1,0 +1,65 @@
+:root {
+    --primary: #2563eb;
+    --bg: #f8fafc;
+    --text: #0f172a;
+}
+
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+.navbar {
+    background-color: #1e293b;
+    padding: 1rem 2rem;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar a {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.navbar a:hover, .navbar a.active {
+    color: white;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.image-wrapper img {
+    max-width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-wrapper img.zoomed {
+    transform: scale(1.05);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.download-btn {
+    display: inline-block;
+    background-color: var(--primary);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 1rem;
+    transition: background-color 0.2s;
+}
+
+.download-btn:hover {
+    background-color: #1d4ed8;
+}
